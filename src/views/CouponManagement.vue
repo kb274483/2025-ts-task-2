@@ -8,8 +8,8 @@ import DeleteModal from '@/components/DeleteModal.vue'
 
 const coupons = ref<Coupon[]>([])
 const pagination = ref<Pagination>({
-  total_pages: 1,
-  current_page: 1,
+  total_pages: 0,
+  current_page: 0,
   has_pre: false,
   has_next: false,
 })
